@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Connect4</string>
+    <string name="connect_four">CONNECT FOUR</string>
+    <string name="options">OPTIONS</string>
+    <string name="connect_four_icon_name">Connect Four</string>
+    <string name="options_icon_name">Options</string>
+</resources>

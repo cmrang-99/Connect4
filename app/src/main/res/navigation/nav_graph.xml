@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigationGraph"
+    app:startDestination="@id/connect4Navigation">
+
+    <!--Two fragments in the navigation graph-->
+    <fragment
+        android:id="@+id/connect4Navigation"
+        android:name="com.cmrang.connect4.BoardFragment"
+        android:label="Connect Four"
+        tools:layout="@layout/fragment_board" />
+    <fragment
+        android:id="@+id/navigationOptions"
+        android:name="com.cmrang.connect4.GameOptionsFragment"
+        android:label="Options"
+        tools:layout="@layout/fragment_game_options" />
+
+</navigation>
